@@ -1,0 +1,89 @@
+// body {
+//     background-color: #f8f9fa !important;
+// }
+
+.summary {
+    padding: 0 0 150px 0;
+
+    .summary__container {
+        .grey-btn {
+            background-color: #9095a2;
+            border: none;
+            border-radius: 5px;
+            color: #ffffff;
+            padding: 7px 14px;
+            font-weight: 400;
+            line-height: 1;
+        }
+
+        .summary__functions {
+            .dropbtn {
+                background-color: transparent;
+                color: #000;
+                padding: 8px 30px;
+                font-size: 16px;
+                border: none;
+                font-weight: 600;
+            }
+
+            #list-tab {
+                width: 70%;
+                border-bottom: 1px solid #dfdfdf;
+                border-top: 1px solid #dfdfdf;
+                padding: 5px 0 8px 0;
+            }
+
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #ffffff;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            .dropdown:hover .dropbtn {
+                color: #00b8ff;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.summary__overview {
+    background-color: #fff;
+    margin: -120px 0 0 0;
+    padding: 30px;
+    border-radius: 20px;
+
+    .overview-tab {
+        font-weight: 700;
+        text-decoration: none;
+        text-align: center;
+        padding: 8px 0 10px 0;
+    }
+
+    a.active {
+        border-bottom: 2px solid #00b8ff;
+    }
+}

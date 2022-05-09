@@ -1,0 +1,58 @@
+.audio__container {
+  background-color: #30302f;
+  padding: 28px 0 28px 0;
+  border-radius: 12px;
+  position: relative;
+  margin: 0 0 30px 0;
+}
+
+.audio__container img {
+  position: absolute;
+  top: -28%;
+  width: 20%;
+  border-radius: 10px;
+}
+
+.audio__container .w-70 {
+  width: 70%;
+}
+
+.audio__container p {
+  color: #fff;
+}
+
+.audio__container audio::-webkit-media-controls-play-button,
+.audio__container audio::-webkit-media-controls-panel {
+  background-color: #00b8ff;
+  color: #fff !important;
+  opacity: 1;
+  width: 100% !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  outline: none !important;
+}
+
+.audio__container audio::-webkit-media-controls-play-button {
+  border-radius: 50%;
+}
+
+.audio__container audio.react-audio-player {
+  background-color: #30302f !important;
+}
+
+.audio__container audio {
+  width: 70%;
+  border: none !important;
+  background-color: #30302f !important;
+}
+
+.audio__container audio::-webkit-media-controls-panel {
+  background-color: #30302f !important;
+  border: none !important;
+}
+
+.audio__container *::-webkit-media-controls-enclosure {
+  border-radius: 0px;
+}
+/*# sourceMappingURL=AudioPlayer.css.map */

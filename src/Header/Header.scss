@@ -1,0 +1,34 @@
+.navbar-insta {
+    .nav-link {
+        color: #b3b3b3;
+        font-weight: 500;
+
+        &:hover{
+            color: #00b8ff;
+        }
+         &:focus{
+            color: #00b8ff;
+        }
+
+        &.active {
+            color: #00b8ff;
+            font-weight: 500;
+        }
+    }
+
+    .navbar-toggler {
+        background-color: #00b8ff;
+        border-radius: 50%;
+        padding: 7px 9px;
+        &:focus{
+            box-shadow: none;
+        }
+    }
+
+    .navbar-collapse {
+        top: 100%;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 8px;
+    }
+}
